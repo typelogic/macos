@@ -1,6 +1,6 @@
 #include <stdio.h> 
 
-char* s = "vaccine";
+char* s = "*** libc ***";
 
 int addnum(int a, int b)
 {

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <typeinfo>
 
-const char* s = "corona";
+const char* s = "*** libcpp ***";
 
 void cppcheck()
 {
@@ -14,7 +14,7 @@ void cppcheck()
 
 extern "C" int mulnum(int a, int b)
 {
+    std::cout << std::endl << s << std::endl;
     cppcheck();
     return a * b;
 }	
-
